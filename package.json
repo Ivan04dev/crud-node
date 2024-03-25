@@ -1,0 +1,22 @@
+{
+  "name": "comunicados-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "Ivan Delgado",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.19.1",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "mysql": "^2.18.1",
+    "oracledb": "^6.4.0"
+  }
+}
